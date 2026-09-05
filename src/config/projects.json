@@ -1,0 +1,41 @@
+{
+  "eyebrow": "03 — Selected work",
+  "headingMain": "Projects that turn ",
+  "headingItalic": "ideas into products.",
+  "placeholderNote": "Projects are placeholder content",
+  "projects": [
+    {
+      "id": "01",
+      "number": "PROJECT 01",
+      "status": "Coming soon",
+      "tag": "Web Platform",
+      "title": "Project Name",
+      "description": "A placeholder for a production project. Replace this with your project description, stack and live/demo link.",
+      "isLarge": true,
+      "artClass": "art-one",
+      "linkUrl": "#"
+    },
+    {
+      "id": "02",
+      "number": "PROJECT 02",
+      "status": "Coming soon",
+      "tag": "Product",
+      "title": "Project Name",
+      "description": "Short project summary goes here.",
+      "isLarge": false,
+      "artClass": "art-two",
+      "linkUrl": "#"
+    },
+    {
+      "id": "03",
+      "number": "PROJECT 03",
+      "status": "Coming soon",
+      "tag": "Application",
+      "title": "Project Name",
+      "description": "Short project summary goes here.",
+      "isLarge": false,
+      "artClass": "art-three",
+      "linkUrl": "#"
+    }
+  ]
+}

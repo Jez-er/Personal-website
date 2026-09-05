@@ -1,0 +1,36 @@
+{
+  "eyebrow": "01 — About me",
+  "headingMain": "Engineering from the interface ",
+  "headingItalic": "to the infrastructure.",
+  "lead": "Full-stack engineer with 2+ years of experience building and scaling production web applications, primarily with React, Next.js and Vue.",
+  "description": "I’ve led application architecture and UI/UX redesigns end-to-end, integrated REST APIs, improved performance and SEO, and worked across backend services, PostgreSQL and DevOps fundamentals.",
+  "stats": [
+    {
+      "value": "2+",
+      "label": "Years experience"
+    },
+    {
+      "value": "3",
+      "label": "Core tech ecosystems"
+    },
+    {
+      "value": "∞",
+      "label": "Ideas to build"
+    }
+  ],
+  "experiencePeriod": "2024 — 2025",
+  "experiences": [
+    {
+      "role": "Full-Stack Engineer",
+      "company": "T-Auto Logistics",
+      "period": "Remote · Mar 2025 – Nov 2025",
+      "description": "Owned the full development cycle, refactored architecture, redesigned core UI/UX flows and built an AI-driven auction system."
+    },
+    {
+      "role": "Full-Stack Developer",
+      "company": "Freelance",
+      "period": "Remote · Mar 2024 – Feb 2025",
+      "description": "Delivered internal tools and customer-facing web systems with end-to-end architecture, REST APIs and full-stack implementation."
+    }
+  ]
+}

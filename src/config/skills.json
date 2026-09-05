@@ -1,0 +1,88 @@
+{
+  "eyebrow": "02 — Skills",
+  "headingMain": "A practical toolkit for ",
+  "headingItalic": "modern web products.",
+  "clickPrompt": "Click card for full tech stack breakdown",
+  "categories": [
+    {
+      "no": "01",
+      "title": "Frontend",
+      "iconName": "Code2",
+      "summary": "React.js · Next.js · Vue.js · TypeScript · JavaScript · HTML5 · CSS3",
+      "description": "Building ultra-responsive, accessible, and performant user interfaces with modern reactive architectures.",
+      "toolGroups": [
+        {
+          "groupName": "Languages & Core",
+          "tools": ["JavaScript (ES6+)", "TypeScript", "HTML5", "CSS3 / SASS"]
+        },
+        {
+          "groupName": "Frameworks & Libraries",
+          "tools": ["React.js", "Next.js (App Router, SSR/SSG)", "Vue.js", "Tailwind CSS", "Framer Motion", "Redux Toolkit", "Zustand", "TanStack Query"]
+        },
+        {
+          "groupName": "Build Tools & APIs",
+          "tools": ["Vite", "Webpack", "DOM & Canvas", "WebSockets", "Fetch / Axios", "Responsive Layouts", "Web Accessibility (a11y)"]
+        }
+      ]
+    },
+    {
+      "no": "02",
+      "title": "Backend",
+      "iconName": "Server",
+      "summary": "Node.js · Nest.js · Java · REST API design · GoLang",
+      "description": "Designing modular microservices, RESTful endpoints, authentication flows, and backend logic.",
+      "toolGroups": [
+        {
+          "groupName": "Languages & Runtimes",
+          "tools": ["Node.js", "TypeScript", "Java", "GoLang"]
+        },
+        {
+          "groupName": "Frameworks & Architecture",
+          "tools": ["Nest.js", "Express.js", "RESTful API Architecture", "Spring Boot (basics)", "GraphQL (basics)"]
+        },
+        {
+          "groupName": "Security & Auth",
+          "tools": ["JWT", "OAuth 2.0", "Bcrypt Hashing", "CORS & Helmet", "Rate Limiting"]
+        }
+      ]
+    },
+    {
+      "no": "03",
+      "title": "Data & Infra",
+      "iconName": "Database",
+      "summary": "PostgreSQL · Prisma · Docker · Git · CI/CD basics",
+      "description": "Database schema design, query optimization, containerized deployments, and robust version control.",
+      "toolGroups": [
+        {
+          "groupName": "Databases & ORMs",
+          "tools": ["PostgreSQL", "Prisma ORM", "TypeORM", "MongoDB", "Redis (Caching)"]
+        },
+        {
+          "groupName": "DevOps & Containers",
+          "tools": ["Docker", "Docker Compose", "Git / GitHub Actions", "CI/CD Pipelines", "Nginx"]
+        },
+        {
+          "groupName": "Cloud & Hosting",
+          "tools": ["Vercel", "Render", "AWS (EC2 & S3 basics)"]
+        }
+      ]
+    },
+    {
+      "no": "04",
+      "title": "Engineering",
+      "iconName": "Cpu",
+      "summary": "SSR · Performance optimization · SEO · Agile · Freelance delivery",
+      "description": "Optimizing web vitals, dynamic rendering strategies, cross-browser compatibility, and client communication.",
+      "toolGroups": [
+        {
+          "groupName": "Optimization & Architecture",
+          "tools": ["SSR / SSG Rendering", "Core Web Vitals (LCP, INP)", "SEO Best Practices", "Clean Code Architecture", "Modular System Design"]
+        },
+        {
+          "groupName": "Methodologies & Delivery",
+          "tools": ["Agile / Scrum Workflow", "Freelance Delivery", "Client Technical Communication", "Git PR Reviews", "Performance Auditing"]
+        }
+      ]
+    }
+  ]
+}

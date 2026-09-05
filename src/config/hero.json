@@ -1,0 +1,17 @@
+{
+  "statusText": "Available for new opportunities",
+  "headingMain": "Building digital products with ",
+  "headingItalic": "clarity",
+  "headingEnd": " & purpose.",
+  "description": "I’m Andriy Chernenko, a Full-Stack Engineer creating scalable, high-performance web experiences with modern technologies.",
+  "primaryActionText": "Explore my work",
+  "primaryActionHref": "#projects",
+  "secondaryActionText": "Download CV",
+  "secondaryActionHref": "Andriy_Chernenko_CV.pdf",
+  "metaLocation": "Based in Cherkasy, Ukraine",
+  "metaExperience": "2+ years experience",
+  "photoLabelTop": "FULL-STACK\nENGINEER",
+  "photoLabelBottom": "REACT · VUE · JAVA",
+  "floatingTitle": "Full-Stack Engineer",
+  "floatingSubtitle": "Product-minded engineering"
+}
