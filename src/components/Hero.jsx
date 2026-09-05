@@ -82,7 +82,7 @@ export default function Hero() {
 					onMouseLeave={handleMouseLeave}
 					className='photo-frame'
 				>
-					<img src='assets/profile.jpg' alt='Andriy Chernenko' />
+					<img src='../assets/profile.jpg' alt='Andriy Chernenko' />
 					<div className='photo-label bottom'>{heroData.photoLabelBottom}</div>
 				</div>
 
