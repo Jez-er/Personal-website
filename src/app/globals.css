@@ -465,7 +465,7 @@ h1 em, h2 em {
 
 .social-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 16px;
 }
 
@@ -553,6 +553,7 @@ h1 em, h2 em {
   grid-template-columns: 1fr 1fr;
   gap: 8vw;
   margin-top: 65px;
+  align-items: start;
 }
 
 .about-copy .lead {
@@ -597,6 +598,12 @@ h1 em, h2 em {
   border-radius: 24px;
   padding: 28px;
   transition: transform 0.35s var(--ease-out-expo), box-shadow 0.35s var(--ease-out-expo);
+}
+
+@media (min-width: 901px) {
+  .experience-card {
+    margin-top: -110px;
+  }
 }
 
 .experience-card:hover {
@@ -659,11 +666,62 @@ h1 em, h2 em {
   font-size: 11px;
 }
 
+.experience-desc,
 .experience-card article > p:last-child {
   color: var(--muted);
   font-size: 13px;
   line-height: 1.65;
   margin-top: 13px;
+}
+
+.experience-highlights {
+  list-style: none;
+  padding: 0;
+  margin: 14px 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.experience-highlights li {
+  position: relative;
+  padding-left: 18px;
+  color: var(--muted);
+  font-size: 12.5px;
+  line-height: 1.6;
+}
+
+.experience-highlights li::before {
+  content: "•";
+  position: absolute;
+  left: 2px;
+  top: 0;
+  color: var(--green2);
+  font-size: 14px;
+  line-height: 1.6;
+  font-weight: 700;
+}
+
+.experience-source {
+  margin-top: 10px;
+}
+
+.experience-source-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--green);
+  text-decoration: none;
+  border-bottom: 1px dashed rgba(40, 82, 67, 0.4);
+  padding-bottom: 2px;
+  transition: all 0.25s ease;
+}
+
+.experience-source-link:hover {
+  color: var(--green2);
+  border-bottom-color: var(--green2);
 }
 
 /* Skills Section */

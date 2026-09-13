@@ -24,6 +24,11 @@
 - **Performance & SEO**: Core Web Vitals (LCP, INP, CLS), SSR / SSG Rendering, Semantic HTML, Clean Code Architecture.
 
 ## Professional Experience
+- **Full-Stack Developer** at **Atlas** (Self-initiated production-grade platform · Dec 2025 – Present)
+  - Designed and built language-learning platform microservices: Traefik API gateway, ForwardAuth, RabbitMQ event bus.
+  - Built Quarkus Java auth service (JWT, Redis sessions, bcrypt, gRPC) and core NestJS microservices with PostgreSQL + Prisma.
+  - Developed Vue 3 + TypeScript admin & user frontend; GitHub Actions CI/CD with real PostgreSQL/Redis test containers.
+  - Source: https://github.com/Atlas-lang-tech
 - **Full-Stack Engineer** at **T-Auto Logistics** (Remote · Mar 2025 – Nov 2025)
   - Owned the full product development cycle.
   - Refactored frontend and backend architecture for scalability and performance.

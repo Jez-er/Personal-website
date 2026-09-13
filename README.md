@@ -67,5 +67,5 @@ All website text, links, projects, and skills are managed through JSON files in 
 - `about.json` — biography, work experience timeline, and metrics
 - `skills.json` — skill categories, descriptions, and tool breakdowns
 - `projects.json` — portfolio projects, tags, and status
-- `connect.json` — social links (LinkedIn, GitHub, Telegram, Email)
+- `connect.json` — social links (LinkedIn, GitHub, GitLab, Telegram, Instagram, Email)
 - `contact.json` — contact call-to-action details

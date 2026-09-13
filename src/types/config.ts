@@ -32,7 +32,10 @@ export interface AboutExperience {
   role: string;
   company: string;
   period: string;
-  description: string;
+  description?: string;
+  highlights?: string[];
+  sourceUrl?: string;
+  sourceLabel?: string;
 }
 
 export interface AboutConfig {

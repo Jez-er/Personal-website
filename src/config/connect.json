@@ -1,34 +1,48 @@
 {
-  "eyebrow": "Connect with me",
-  "heading": "Let's build something remarkable together across platforms.",
-  "links": [
-    {
-      "name": "LinkedIn",
-      "subtitle": "Professional Profile & Network",
-      "handle": "andriy-chernenko",
-      "url": "https://linkedin.com/in/andriy-chernenko-732679280",
-      "iconName": "Linkedin"
-    },
-    {
-      "name": "GitHub",
-      "subtitle": "Open Source & Code Repositories",
-      "handle": "AndriiChernenko",
-      "url": "https://github.com/AndriiChernenko",
-      "iconName": "Github"
-    },
-    {
-      "name": "Telegram",
-      "subtitle": "Direct Messaging & Quick Chat",
-      "handle": "@chernenko_andriy",
-      "url": "https://t.me/chernenko_andriy",
-      "iconName": "Send"
-    },
-    {
-      "name": "Email",
-      "subtitle": "Business & Project Inquiries",
-      "handle": "andrey.chernenko008@gmail.com",
-      "url": "mailto:andrey.chernenko008@gmail.com",
-      "iconName": "Mail"
-    }
-  ]
+	"eyebrow": "Connect with me",
+	"heading": "Let's build something remarkable together across platforms.",
+	"links": [
+		{
+			"name": "LinkedIn",
+			"subtitle": "Professional Profile & Network",
+			"handle": "andriy-chernenko",
+			"url": "https://linkedin.com/in/andriy-chernenko-732679280",
+			"iconName": "Linkedin"
+		},
+		{
+			"name": "GitHub",
+			"subtitle": "Open Source & Code Repositories",
+			"handle": "Jez-er",
+			"url": "https://github.com/Jez-er",
+			"iconName": "Github"
+		},
+		{
+			"name": "GitLab",
+			"subtitle": "Open Source & Code Repositories",
+			"handle": "Jez-er",
+			"url": "https://gitlab.com/Jez-er",
+			"iconName": "Gitlab"
+		},
+		{
+			"name": "Telegram",
+			"subtitle": "Direct Messaging & Quick Chat",
+			"handle": "@Jeze_1",
+			"url": "https://t.me/Jeze_1",
+			"iconName": "Send"
+		},
+		{
+			"name": "Instagram",
+			"subtitle": "Photos & Personal Updates",
+			"handle": "@jez_jack6",
+			"url": "https://www.instagram.com/jez_jack6",
+			"iconName": "Instagram"
+		},
+		{
+			"name": "Email",
+			"subtitle": "Business & Project Inquiries",
+			"handle": "andrey.chernenko008@gmail.com",
+			"url": "mailto:andrey.chernenko008@gmail.com",
+			"iconName": "Mail"
+		}
+	]
 }

@@ -2,6 +2,7 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
+import { ArrowUpRight } from 'lucide-react';
 import aboutDataRaw from '@/config/about.json';
 import type { AboutConfig } from '@/types/config';
 
@@ -63,7 +64,27 @@ export default function About() {
               <p className="role">{exp.role}</p>
               <h3>{exp.company}</h3>
               <small>{exp.period}</small>
-              <p>{exp.description}</p>
+              {exp.description && <p className="experience-desc">{exp.description}</p>}
+              {exp.highlights && exp.highlights.length > 0 && (
+                <ul className="experience-highlights">
+                  {exp.highlights.map((h, hIdx) => (
+                    <li key={hIdx}>{h}</li>
+                  ))}
+                </ul>
+              )}
+              {exp.sourceUrl && (
+                <div className="experience-source">
+                  <a
+                    href={exp.sourceUrl}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="experience-source-link"
+                  >
+                    <span>Source code: {exp.sourceLabel || exp.sourceUrl.replace(/^https?:\/\//, '')}</span>
+                    <ArrowUpRight className="w-3.5 h-3.5" strokeWidth={2} />
+                  </a>
+                </div>
+              )}
             </article>
           ))}
         </motion.div>
