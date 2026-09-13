@@ -1,7 +1,12 @@
+'use client';
+
 import React from 'react';
 import { motion } from 'framer-motion';
 import { ArrowUpRight } from 'lucide-react';
-import contactData from '../config/contact.json';
+import contactDataRaw from '@/config/contact.json';
+import type { ContactConfig } from '@/types/config';
+
+const contactData = contactDataRaw as ContactConfig;
 
 export default function Contact() {
   return (

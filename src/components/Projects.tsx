@@ -1,10 +1,15 @@
+'use client';
+
 import React from 'react';
 import { motion } from 'framer-motion';
 import { ArrowUpRight } from 'lucide-react';
-import projectsData from '../config/projects.json';
+import projectsDataRaw from '@/config/projects.json';
+import type { ProjectsConfig } from '@/types/config';
+
+const projectsData = projectsDataRaw as ProjectsConfig;
 
 export default function Projects() {
-  const handlePlaceholder = (e) => {
+  const handlePlaceholder = (e: React.MouseEvent<HTMLAnchorElement>) => {
     e.preventDefault();
     alert('Placeholder link — replace this with your real profile or project URL.');
   };

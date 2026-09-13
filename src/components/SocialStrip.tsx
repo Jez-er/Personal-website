@@ -1,9 +1,14 @@
+'use client';
+
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Linkedin, Github, Mail, Send, ArrowUpRight } from 'lucide-react';
-import connectData from '../config/connect.json';
+import { Linkedin, Github, Mail, Send, ArrowUpRight, LucideIcon } from 'lucide-react';
+import connectDataRaw from '@/config/connect.json';
+import type { ConnectConfig } from '@/types/config';
 
-const iconMap = {
+const connectData = connectDataRaw as ConnectConfig;
+
+const iconMap: Record<string, LucideIcon> = {
   Linkedin,
   Github,
   Send,

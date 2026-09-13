@@ -1,10 +1,15 @@
+'use client';
+
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { Code2, Server, Database, Cpu, ArrowUpRight } from 'lucide-react';
-import skillsData from '../config/skills.json';
+import { Code2, Server, Database, Cpu, ArrowUpRight, LucideIcon } from 'lucide-react';
+import skillsDataRaw from '@/config/skills.json';
 import SkillModal from './SkillModal';
+import type { SkillCategory, SkillsConfig } from '@/types/config';
 
-const iconMap = {
+const skillsData = skillsDataRaw as SkillsConfig;
+
+const iconMap: Record<string, LucideIcon> = {
   Code2,
   Server,
   Database,
@@ -12,7 +17,7 @@ const iconMap = {
 };
 
 export default function Skills() {
-  const [selectedCategory, setSelectedCategory] = useState(null);
+  const [selectedCategory, setSelectedCategory] = useState<SkillCategory | null>(null);
 
   return (
     <section className="section skills" id="skills">
@@ -74,7 +79,6 @@ export default function Skills() {
         })}
       </div>
 
-      {/* Skill Modal */}
       <SkillModal
         category={selectedCategory}
         onClose={() => setSelectedCategory(null)}

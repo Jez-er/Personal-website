@@ -20,7 +20,7 @@ html {
 }
 
 body {
-  font-family: "DM Sans", sans-serif;
+  font-family: var(--font-dm-sans), "DM Sans", sans-serif;
   background: var(--cream);
   color: var(--choc);
   overflow-x: hidden;
@@ -70,7 +70,7 @@ a {
   border-radius: 50%;
   background: var(--green);
   color: var(--milk);
-  font: 800 12px "Manrope";
+  font: 800 12px var(--font-manrope), "Manrope", sans-serif;
   transition: transform 0.4s var(--ease-out-expo);
 }
 
@@ -255,7 +255,7 @@ a {
 }
 
 h1, h2, h3 {
-  font-family: "Manrope", sans-serif;
+  font-family: var(--font-manrope), "Manrope", sans-serif;
 }
 
 h1 {

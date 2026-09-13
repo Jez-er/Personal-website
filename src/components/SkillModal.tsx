@@ -1,17 +1,25 @@
+'use client';
+
 import React, { useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { X, Code2, Server, Database, Cpu, Sparkles } from 'lucide-react';
+import { X, Code2, Server, Database, Cpu, Sparkles, LucideIcon } from 'lucide-react';
+import type { SkillCategory } from '@/types/config';
 
-const iconMap = {
+interface SkillModalProps {
+  category: SkillCategory | null;
+  onClose: () => void;
+}
+
+const iconMap: Record<string, LucideIcon> = {
   Code2,
   Server,
   Database,
   Cpu,
 };
 
-export default function SkillModal({ category, onClose }) {
+export default function SkillModal({ category, onClose }: SkillModalProps) {
   useEffect(() => {
-    const handleKeyDown = (e) => {
+    const handleKeyDown = (e: KeyboardEvent) => {
       if (e.key === 'Escape') onClose();
     };
     window.addEventListener('keydown', handleKeyDown);
@@ -40,7 +48,7 @@ export default function SkillModal({ category, onClose }) {
               <CategoryIcon className="w-5 h-5 text-[#285243]" strokeWidth={2} />
               <h2>{category.title}</h2>
             </div>
-            <button className="skill-modal-close" onClick={onClose} aria-label="Close modal">
+            <button className="skill-modal-close" onClick={onClose} aria-label="Close modal" type="button">
               <X className="w-5 h-5" strokeWidth={2} />
             </button>
           </div>

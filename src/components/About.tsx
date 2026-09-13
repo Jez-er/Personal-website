@@ -1,6 +1,11 @@
+'use client';
+
 import React from 'react';
 import { motion } from 'framer-motion';
-import aboutData from '../config/about.json';
+import aboutDataRaw from '@/config/about.json';
+import type { AboutConfig } from '@/types/config';
+
+const aboutData = aboutDataRaw as AboutConfig;
 
 export default function About() {
   return (

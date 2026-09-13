@@ -1,9 +1,14 @@
+'use client';
+
 import React from 'react';
 import { ArrowUp } from 'lucide-react';
-import siteData from '../config/site.json';
+import siteDataRaw from '@/config/site.json';
+import type { SiteConfig } from '@/types/config';
+
+const siteData = siteDataRaw as SiteConfig;
 
 export default function Footer() {
-  const scrollToTop = (e) => {
+  const scrollToTop = (e: React.MouseEvent<HTMLAnchorElement>) => {
     e.preventDefault();
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };

@@ -1,0 +1,34 @@
+# Andriy Chernenko — Full-Stack Engineer
+
+> Personal portfolio and professional summary of Andriy Chernenko, a product-minded Full-Stack Software Engineer specializing in scalable web systems, modern reactive frontends, and robust backend architectures.
+
+## Core Information
+- **Name**: Andriy Chernenko
+- **Title**: Full-Stack Software Engineer
+- **Experience**: 2+ years of commercial/production development
+- **Location**: Cherkasy, Ukraine (Open to Remote opportunities worldwide, Europe, US timezones)
+- **Email**: andrey.chernenko008@gmail.com
+- **Website**: https://andriy-chernenko.vercel.app/
+- **CV / Resume**: https://andriy-chernenko.vercel.app/Andriy_Chernenko_CV.pdf
+
+## Social & Professional Profiles
+- **LinkedIn**: https://linkedin.com/in/andriy-chernenko-732679280
+- **GitHub**: https://github.com/AndriiChernenko
+- **Telegram**: https://t.me/chernenko_andriy
+
+## Primary Tech Stack
+- **Frontend**: React.js, Next.js (App Router, SSG/SSR), Vue.js, TypeScript, JavaScript (ES6+), HTML5, CSS3 / SASS, Tailwind CSS, Framer Motion, Redux Toolkit, Zustand, TanStack Query.
+- **Backend & APIs**: Node.js, Nest.js, Express.js, Java, GoLang, RESTful API Design, JWT, OAuth 2.0, WebSocket, Microservices fundamentals.
+- **Databases & ORMs**: PostgreSQL, Prisma ORM, TypeORM, MongoDB, Redis.
+- **DevOps & Tools**: Docker, Docker Compose, Git, GitHub Actions, CI/CD pipelines, Nginx, Vercel.
+- **Performance & SEO**: Core Web Vitals (LCP, INP, CLS), SSR / SSG Rendering, Semantic HTML, Clean Code Architecture.
+
+## Professional Experience
+- **Full-Stack Engineer** at **T-Auto Logistics** (Remote · Mar 2025 – Nov 2025)
+  - Owned the full product development cycle.
+  - Refactored frontend and backend architecture for scalability and performance.
+  - Redesigned core user flows and UX.
+  - Engineered an AI-driven auction platform system.
+- **Full-Stack Developer** (Freelance · Remote · Mar 2024 – Feb 2025)
+  - Architected and delivered customer-facing web platforms and internal business tools.
+  - Implemented secure REST APIs, PostgreSQL databases, and modern reactive interfaces.
